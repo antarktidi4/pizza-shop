@@ -14,7 +14,7 @@ pub struct Cart {
 impl CartTrait for Cart {
     fn new() -> Self {
         Cart {
-            items: std::collections::HashMap::new(),
+            items: HashMap::new(),
         }
     }
 
